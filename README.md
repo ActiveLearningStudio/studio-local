@@ -7,7 +7,7 @@
 
 > mkdir -p {esdata,postgresdata,mysqldata,pgadmin-data}
 
-3. Run docker-compsoe up
+3. Run docker-compose up
 4. Done
 
 you can view studio on http://localhost:3000
