@@ -18,3 +18,5 @@ Here are the issues other users have faced, if you face similar issues you can u
 
 1. If permission errors like (Permission denied: '/var/lib/pgadmin/sessions' in Docker). Try run with `sudo chown -R 5050:5050 pgadmin-data` inside root folder
 2. Try (docker-compose up) with sudo if you have some issues with permissions generally
+3. If you face this error `[20760] INTERNAL ERROR: cannot create temporary directory!` then you might have space issue in your computer which needs to be cleared up
+4. In case of timeouts error. Try this "COMPOSE_HTTP_TIMEOUT=200 docker-compose up"
