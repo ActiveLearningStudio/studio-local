@@ -11,3 +11,10 @@
 4. Done
 
 you can view studio on http://localhost:3000
+
+# **Notes:**
+
+Here are the issues other users have faced, if you face similar issues you can use this to solve
+
+1. If permission errors like (Permission denied: '/var/lib/pgadmin/sessions' in Docker). Try run with `sudo chown -R 5050:5050 pgadmin-data` inside root folder
+2. Try (docker-compose up) with sudo if you have some issues with permissions generally
