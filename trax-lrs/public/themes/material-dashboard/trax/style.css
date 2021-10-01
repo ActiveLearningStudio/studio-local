@@ -1,0 +1,48 @@
+
+/* Navbar */
+
+.navbar .navbar-minimize {
+    display: none !important;
+}
+.navbar.ext-page .navbar-toggler .icon-bar {
+    background-color: #fff !important;
+}
+
+/* Sidebar */
+
+.sidebar .logo-mini {
+    display: none !important;
+}
+.sidebar .logo-normal {
+    text-align: left !important;
+    margin-left: 15px !important;
+    padding-left: 15px !important;
+}
+
+/* Footer */
+
+.footer a {
+    color: #fff;
+}
+
+/* Modals */
+
+.modal-header, .modal-content, .modal-footer {
+    border: none !important;
+}
+
+/* Tables pagination */
+
+.page-link, .page-link:hover, .page-link:focus {
+    color: #999;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+}
+.page-item.active .page-link {
+    color: #666;
+    font-weight: 600;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+

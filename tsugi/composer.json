@@ -1,0 +1,39 @@
+{
+    "require": {
+        "laravel/lumen-framework": "v7.2.2",
+        "google/apiclient-services": "v0.156",
+        "google/apiclient": "v2.9.1",
+        "google/auth": "v1.15.0",
+        "phpseclib/phpseclib" : ">=2.0.31 <3.0.0",
+
+        "gree/jose" : ">=2.2.1",
+        "ezyang/htmlpurifier": ">=v4.13.0",
+        "cboden/ratchet" : ">=0.4.3",
+
+        "aws/aws-sdk-php" : "3.185.9",
+        "symfony/routing" : "v5.3.0",
+        "symfony/http-foundation" : "v5.3.3",
+        "react/event-loop" : "v1.1.1",
+        "react/stream" : "v1.1.1",
+        "react/promise-timer" : "v1.6.0",
+        "react/dns" : "v1.7.0",
+        "react/socket" : "v1.7.0",
+        "monolog/monolog" : "2.3.0",
+        "symfony/translation" : "v5.3.3",
+        "symfony/process" : "v5.3.2",
+        "symfony/finder" : "v5.3.0",
+        "symfony/console" : "v5.3.2",
+        "symfony/mime" : "v5.3.2",
+        "symfony/event-dispatcher" : "v5.3.0",
+        "symfony/var-dumper" : "v5.3.3",
+        "symfony/error-handler" : "v5.3.3",
+        "symfony/http-kernel" : "v5.3.3",
+
+
+        "tsugi/lib": "dev-master#c77ed7d5cdbccafe36625fa62a88fd3233e8b823",
+        "koseu/lib": "dev-master#5c5bcb32469977bea262b1900461c3f205adb899"
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
