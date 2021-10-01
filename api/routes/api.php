@@ -154,7 +154,7 @@ Route::group(['prefix' => 'v1', 'namespace' => 'Api\V1'], function () {
 
          // Categories
         Route::get('subjects', 'SubjectController@subjects');
-        //  Route::get('education-levels', 'SearchController@advance');
+        Route::get('education-levels', 'EducationLevelController@educationLevels');
         //  Route::get('type-of-activities', 'SearchController@dashboard');
 
         // Suborganizations

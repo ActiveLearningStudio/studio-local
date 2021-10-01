@@ -35,14 +35,6 @@ class SubjectController extends Controller
      *
      * @responseFile responses/subject/public.json
      *
-     * @response  400 {
-     *   "errors": {
-     *     "subjects": [
-     *       "The user Ids must be an array."
-     *     ]
-     *   }
-     * }
-     *t
      * @return Collection
      */
     public function subjects()
