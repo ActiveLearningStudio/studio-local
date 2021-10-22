@@ -20,3 +20,5 @@ Here are the issues other users have faced, if you face similar issues you can u
 2. Try (docker-compose up) with sudo if you have some issues with permissions generally
 3. If you face this error `[20760] INTERNAL ERROR: cannot create temporary directory!` then you might have space issue in your computer which needs to be cleared up
 4. In case of timeouts error. Try this "COMPOSE_HTTP_TIMEOUT=200 docker-compose up"
+
+In case of any issues found. Please create issues
