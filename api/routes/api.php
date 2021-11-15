@@ -152,6 +152,10 @@ Route::group(['prefix' => 'v1', 'namespace' => 'Api\V1'], function () {
         Route::get('search/advanced', 'SearchController@advance');
         Route::get('search/dashboard', 'SearchController@dashboard');
 
+         // Categories
+        Route::get('subjects', 'SubjectController@subjects');
+        Route::get('education-levels', 'EducationLevelController@educationLevels');
+
         // Suborganizations
         Route::get('suborganizations/{suborganization}/user-has-permission', 'SuborganizationController@userHasPermission')->name('suborganizations.user-has-permission');
         Route::get('suborganizations/{suborganization}/permissions', 'SuborganizationController@getUserPermissions')->name('suborganizations.get-user-permissions');
