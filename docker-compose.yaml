@@ -171,27 +171,27 @@ services:
       - currikiprod-laravel
 
 
-  currikiprod-elastic:
-    image: docker.elastic.co/elasticsearch/elasticsearch:7.11.1
-    container_name: currikiprod-elastic
-    environment:
-      - node.name=currikiprod-elastic
-      - cluster.name=es-docker-cluster
-      - discovery.type=single-node
-      - bootstrap.memory_lock=true
-      - ELASTIC_PASSWORD=elastic123
-      - "ES_JAVA_OPTS=-Xms2g -Xmx2g"
-      - xpack.security.enabled=true
-    ulimits:
-      memlock:
-        soft: -1
-        hard: -1
-    volumes:
-      - ./esdata:/usr/share/elasticsearch/data
-    ports:
-      - 30800:9200
-    networks:
-      - currikiprod-laravel
+#   currikiprod-elastic:
+#     image: docker.elastic.co/elasticsearch/elasticsearch:7.11.1
+#     container_name: currikiprod-elastic
+#     environment:
+#       - node.name=currikiprod-elastic
+#       - cluster.name=es-docker-cluster
+#       - discovery.type=single-node
+#       - bootstrap.memory_lock=true
+#       - ELASTIC_PASSWORD=elastic123
+#       - "ES_JAVA_OPTS=-Xms2g -Xmx2g"
+#       - xpack.security.enabled=true
+#     ulimits:
+#       memlock:
+#         soft: -1
+#         hard: -1
+#     volumes:
+#       - ./esdata:/usr/share/elasticsearch/data
+#     ports:
+#       - 30800:9200
+#     networks:
+#       - currikiprod-laravel
   
 
 networks:
