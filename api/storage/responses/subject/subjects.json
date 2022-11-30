@@ -1,0 +1,28 @@
+{
+    "subjects": [
+        {
+            "id": 1,
+            "name": "Arts"
+        },
+        {
+            "id": 2,
+            "name": "Computer Science"
+        },
+        {
+            "id": 3,
+            "name": "Language Arts"
+        },
+        {
+            "id": 4,
+            "name": "Mathematics"
+        },
+        {
+            "id": 5,
+            "name": "Science"
+        },
+        {
+            "id": 6,
+            "name": "Social Studies"
+        }
+    ]
+}

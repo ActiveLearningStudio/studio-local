@@ -59,6 +59,10 @@ use App\Repositories\InvitedOrganizationUser\InvitedOrganizationUserRepository;
 use App\Repositories\InvitedOrganizationUser\InvitedOrganizationUserRepositoryInterface;
 use App\Repositories\OrganizationPermissionType\OrganizationPermissionTypeRepository;
 use App\Repositories\OrganizationPermissionType\OrganizationPermissionTypeRepositoryInterface;
+use App\Repositories\Subject\SubjectRepository;
+use App\Repositories\Subject\SubjectRepositoryInterface;
+use App\Repositories\EducationLevel\EducationLevelRepository;
+use App\Repositories\EducationLevel\EducationLevelRepositoryInterface;
 
 class RepositoryServiceProvider extends ServiceProvider
 {
@@ -97,6 +101,8 @@ class RepositoryServiceProvider extends ServiceProvider
         $this->app->bind(OrganizationPermissionTypeRepositoryInterface::class, OrganizationPermissionTypeRepository::class);
         $this->app->bind(OutcomeRepositoryInterface::class, OutcomeRepository::class);
         $this->app->bind(GoogleClassroomRepositoryInterface::class, GoogleClassroomRepository::class);
+        $this->app->bind(SubjectRepositoryInterface::class, SubjectRepository::class);
+        $this->app->bind(EducationLevelRepositoryInterface::class, EducationLevelRepository::class);
     }
 
     /**

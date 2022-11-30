@@ -1,0 +1,40 @@
+{
+    "educationLevels": [
+        {
+            "id": 1,
+            "name": "Preschool (Ages 0-4)"
+        },
+        {
+            "id": 2,
+            "name": "Kindergarten-Grade 2 (Ages 5-7)"
+        },
+        {
+            "id": 3,
+            "name": "Grades 3-5 (Ages 8-10)"
+        },
+        {
+            "id": 4,
+            "name": "Grades 6-8 (Ages 11-13)"
+        },
+        {
+            "id": 5,
+            "name": "Grades 9-10 (Ages 14-16)"
+        },
+        {
+            "id": 6,
+            "name": "Grades 11-12 (Ages 16-18)"
+        },
+        {
+            "id": 7,
+            "name": "College & Beyond"
+        },
+        {
+            "id": 8,
+            "name": "Professional Development"
+        },
+        {
+            "id": 9,
+            "name": "Special Education"
+        }
+    ]
+}
